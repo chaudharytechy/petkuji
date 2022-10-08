@@ -1,0 +1,22 @@
+
+ #header .navbar-nav .nav-item .nav-link {
+    color:whitesmoke;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+ #header .navbar-nav .nav-item .nav-link.active {
+    color: var(--bs-success);
+}
+.about{
+    width: 100%;
+    max-height: auto;
+    
+}
+.footer{
+    width: 100%;
+   max-height: auto;
+    background-position: center;
+    background-image: url(https://www.fergusonfoundation.org/wp-content/uploads/2021/08/webIncredible-Journey-Water-Cycle-aspect-ratio-374-264.jpg);
+}

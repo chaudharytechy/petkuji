@@ -1,0 +1,74 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .navbar-nav .nav-item .nav-link {
+    color:whitesmoke;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+.about{
+	width: 100%;
+	max-height: auto;
+	
+}
+.bg1{
+	background:#fd7e14;
+}
+/*bg image page 1nd*/
+.bg{
+	width: 100%;
+	position: cover;
+	background-position: centre;
+}
+/*detail page 2nd*/
+
+.detail{ 
+   transition: font-size;    
+}
+.detail:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+/*office image page */
+.office{ 
+   transition:size; 
+   transition-delay: 10s;   
+}
+
+.office:hover{
+   transform:translate3d(70px, 0px, 0px);
+}
+.why{ 
+   transition:size; 
+   transition-delay: 10s;   
+}
+.why:hover{
+	transition:scale3d(1.3,1.3,1.3);
+}
+
+.why:hover{
+   transform:translate3d(0px, 50px, 100px);
+   trans
+}
+/*facility image page */
+.facility{
+	font-size: 20px;
+	font-weight: 400;
+	background-blend-mode: lighten;
+	background-color:#ff00001a;
+}
+
+.test{
+	text-align:right;
+	font-weight: 500;
+	color:forestgreen;
+	font-size: 20px;
+}
+.test1{
+	 transition:size; 
+   transition-delay: 10s; 
+
+}
+.test1:hover{
+	 transform: scale3d(1.1, 1.1, 1.1);
+}
